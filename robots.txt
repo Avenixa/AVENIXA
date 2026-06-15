@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://avenixa.my.id/sitemap.xml

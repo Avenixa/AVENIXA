@@ -1,0 +1,165 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0c0c10"/>
+      <stop offset="100%" style="stop-color:#080808"/>
+    </linearGradient>
+
+    <linearGradient id="faceG" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#d8d0c8"/>
+      <stop offset="50%" style="stop-color:#b8b0a8"/>
+      <stop offset="100%" style="stop-color:#888078"/>
+    </linearGradient>
+
+    <linearGradient id="lineG" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#505058;stop-opacity:0"/>
+      <stop offset="50%" style="stop-color:#505058"/>
+      <stop offset="100%" style="stop-color:#505058;stop-opacity:0"/>
+    </linearGradient>
+
+    <radialGradient id="bgGlow" cx="50%" cy="42%" r="36%">
+      <stop offset="0%" style="stop-color:#141418;stop-opacity:0.8"/>
+      <stop offset="100%" style="stop-color:#080808;stop-opacity:0"/>
+    </radialGradient>
+
+    <radialGradient id="eyeVoidL" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#1a1020"/>
+      <stop offset="100%" style="stop-color:#080808"/>
+    </radialGradient>
+
+    <filter id="shadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#000000" flood-opacity="0.95"/>
+    </filter>
+
+    <filter id="crackGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="eyeGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- BG -->
+  <rect width="500" height="500" fill="url(#bg)"/>
+  <rect width="500" height="500" fill="url(#bgGlow)"/>
+
+  <!-- Border -->
+  <rect x="18" y="18" width="464" height="464" rx="3" fill="none" stroke="#181818" stroke-width="1"/>
+
+  <!-- Corner marks -->
+  <g stroke="#282828" stroke-width="1.5" fill="none">
+    <polyline points="18,52 18,18 52,18"/>
+    <polyline points="448,18 482,18 482,52"/>
+    <polyline points="18,448 18,482 52,482"/>
+    <polyline points="448,482 482,482 482,448"/>
+  </g>
+
+  <!-- === PORCELAIN DOLL FACE === -->
+
+  <!-- Head shape - slightly wide, doll-like -->
+  <ellipse cx="250" cy="205" rx="115" ry="128" fill="url(#faceG)" filter="url(#shadow)"/>
+
+  <!-- Ear left -->
+  <ellipse cx="137" cy="205" rx="16" ry="22" fill="#b8b0a8"/>
+  <!-- Ear right -->
+  <ellipse cx="363" cy="205" rx="16" ry="22" fill="#b8b0a8"/>
+
+  <!-- Hair - simple dark mass top -->
+  <ellipse cx="250" cy="100" rx="112" ry="42" fill="#181818"/>
+  <rect x="138" y="82" width="224" height="42" fill="#181818"/>
+  <!-- Hair side left drape -->
+  <path d="M 138,100 Q 128,150 135,210 L 148,210 Q 140,155 148,105 Z" fill="#181818"/>
+  <!-- Hair side right drape -->
+  <path d="M 362,100 Q 372,150 365,210 L 352,210 Q 360,155 352,105 Z" fill="#181818"/>
+  <!-- Hair top detail -->
+  <ellipse cx="250" cy="83" rx="112" ry="18" fill="#101010"/>
+
+  <!-- === EYES - empty void, one weeping === -->
+  <!-- Left eye socket - hollow void -->
+  <ellipse cx="205" cy="195" rx="30" ry="26" fill="url(#eyeVoidL)" filter="url(#eyeGlow)"/>
+  <ellipse cx="205" cy="195" rx="22" ry="18" fill="#050508"/>
+  <!-- Left eye void glow subtle -->
+  <ellipse cx="205" cy="195" rx="10" ry="8" fill="#1a1025" opacity="0.6" filter="url(#eyeGlow)"/>
+
+  <!-- Right eye socket - hollow void -->
+  <ellipse cx="295" cy="195" rx="30" ry="26" fill="url(#eyeVoidL)" filter="url(#eyeGlow)"/>
+  <ellipse cx="295" cy="195" rx="22" ry="18" fill="#050508"/>
+  <ellipse cx="295" cy="195" rx="10" ry="8" fill="#1a1025" opacity="0.6" filter="url(#eyeGlow)"/>
+
+  <!-- Tear streak from left eye - dark -->
+  <path d="M 198,218 Q 194,240 192,262 Q 190,278 194,288"
+    fill="none" stroke="#606068" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <path d="M 200,220 Q 196,242 194,264 Q 192,280 196,290"
+    fill="none" stroke="#808088" stroke-width="1" stroke-linecap="round" opacity="0.4"/>
+
+  <!-- === NOSE - delicate === -->
+  <path d="M 242,238 Q 250,233 258,238 L 260,252 Q 252,258 248,258 Q 244,258 240,252 Z"
+    fill="#a09890" opacity="0.7"/>
+
+  <!-- === MOUTH - thin stitched shut === -->
+  <!-- Lips -->
+  <path d="M 215,278 Q 232,272 250,271 Q 268,272 285,278 Q 268,286 250,287 Q 232,286 215,278 Z"
+    fill="#907870"/>
+
+  <!-- Stitch lines across mouth - creepy stitched shut -->
+  <g stroke="#181818" stroke-width="1.8" stroke-linecap="round" opacity="0.9">
+    <line x1="222" y1="270" x2="222" y2="288"/>
+    <line x1="233" y1="268" x2="233" y2="290"/>
+    <line x1="244" y1="267" x2="244" y2="291"/>
+    <line x1="256" y1="267" x2="256" y2="291"/>
+    <line x1="267" y1="268" x2="267" y2="290"/>
+    <line x1="278" y1="270" x2="278" y2="288"/>
+  </g>
+  <!-- Horizontal stitch thread -->
+  <path d="M 215,279 Q 250,281 285,279" fill="none" stroke="#606050" stroke-width="1" opacity="0.5"/>
+
+  <!-- === CRACKS - porcelain fractures === -->
+  <g fill="none" stroke-linecap="round" filter="url(#crackGlow)">
+    <!-- Major crack from right eye up to forehead -->
+    <path d="M 290,178 L 298,155 L 305,132 L 295,108" stroke="#505058" stroke-width="1.8" opacity="0.8"/>
+    <path d="M 298,155 L 310,148 L 322,150" stroke="#505058" stroke-width="1" opacity="0.6"/>
+    <path d="M 305,132 L 315,128" stroke="#505058" stroke-width="0.8" opacity="0.5"/>
+
+    <!-- Crack from left cheek down -->
+    <path d="M 178,230 L 172,255 L 178,275 L 170,295" stroke="#505058" stroke-width="1.5" opacity="0.7"/>
+    <path d="M 172,255 L 162,260" stroke="#505058" stroke-width="0.8" opacity="0.5"/>
+
+    <!-- Small crack near chin -->
+    <path d="M 255,290 L 260,308 L 255,318" stroke="#505058" stroke-width="1.2" opacity="0.6"/>
+    <path d="M 260,308 L 268,312" stroke="#505058" stroke-width="0.8" opacity="0.4"/>
+
+    <!-- Hairline crack forehead center -->
+    <path d="M 248,138 L 244,162 L 248,178" stroke="#606068" stroke-width="0.8" opacity="0.5"/>
+  </g>
+
+  <!-- === HZX TEXT === -->
+  <rect x="148" y="360" width="204" height="0.8" fill="url(#lineG)"/>
+
+  <text x="250" y="418"
+    font-family="'Helvetica Neue', 'Arial', sans-serif"
+    font-size="72" font-weight="200"
+    fill="#909098"
+    text-anchor="middle"
+    filter="url(#softGlow)"
+    letter-spacing="18">HZX</text>
+
+  <rect x="148" y="430" width="204" height="0.8" fill="url(#lineG)"/>
+</svg>

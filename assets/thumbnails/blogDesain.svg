@@ -1,0 +1,165 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg" font-family="Poppins, Inter, sans-serif"
+                style="width:100%;display:block;">
+                <defs>
+                  <linearGradient id="bg-uiux" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" style="stop-color:#0f2460" />
+                    <stop offset="100%" style="stop-color:#1d4ed8" />
+                  </linearGradient>
+                  <radialGradient id="glow-uiux" cx="50%" cy="50%" r="50%">
+                    <stop offset="0%" style="stop-color:#22d3ee;stop-opacity:0.15" />
+                    <stop offset="100%" style="stop-color:#22d3ee;stop-opacity:0" />
+                  </radialGradient>
+                  <linearGradient id="acc-uiux" x1="0%" y1="0%" x2="0%" y2="100%">
+                    <stop offset="0%" style="stop-color:#22d3ee" />
+                    <stop offset="100%" style="stop-color:#3b82f6" />
+                  </linearGradient>
+                </defs>
+                <rect width="800" height="400" fill="url(#bg-uiux)" />
+                <g stroke="rgba(255,255,255,0.04)" stroke-width="1">
+                  <line x1="0" y1="100" x2="800" y2="100" />
+                  <line x1="0" y1="200" x2="800" y2="200" />
+                  <line x1="0" y1="300" x2="800" y2="300" />
+                  <line x1="200" y1="0" x2="200" y2="400" />
+                  <line x1="400" y1="0" x2="400" y2="400" />
+                  <line x1="600" y1="0" x2="600" y2="400" />
+                </g>
+                <ellipse cx="190" cy="200" rx="210" ry="180" fill="url(#glow-uiux)" />
+                <ellipse cx="660" cy="110" rx="160" ry="130" fill="url(#glow-uiux)" />
+
+                <!-- Bento grid mockup kiri -->
+                <rect x="40" y="55" width="255" height="190" rx="14" fill="rgba(15,36,96,0.75)"
+                  stroke="rgba(255,255,255,0.12)" stroke-width="1.5" />
+                <!-- Big card top-left -->
+                <rect x="52" y="67" width="112" height="90" rx="8" fill="rgba(34,211,238,0.12)"
+                  stroke="rgba(34,211,238,0.3)" stroke-width="1" />
+                <rect x="56" y="71" width="3" height="82" rx="2" fill="url(#acc-uiux)" />
+                <rect x="66" y="80" width="60" height="6" rx="3" fill="rgba(255,255,255,0.5)" />
+                <rect x="66" y="92" width="80" height="4" rx="2" fill="rgba(255,255,255,0.2)" />
+                <rect x="66" y="102" width="66" height="4" rx="2" fill="rgba(255,255,255,0.15)" />
+                <rect x="66" y="115" width="44" height="4" rx="2" fill="rgba(255,255,255,0.1)" />
+                <circle cx="138" cy="130" r="14" fill="rgba(34,211,238,0.15)" stroke="rgba(34,211,238,0.3)"
+                  stroke-width="1" />
+                <text x="138" y="135" text-anchor="middle" font-size="12">✦</text>
+                <!-- Top right card -->
+                <rect x="172" y="67" width="112" height="90" rx="8" fill="rgba(99,102,241,0.1)"
+                  stroke="rgba(99,102,241,0.25)" stroke-width="1" />
+                <rect x="180" y="75" width="96" height="36" rx="6" fill="rgba(255,255,255,0.07)"
+                  stroke="rgba(255,255,255,0.15)" stroke-width="1" />
+                <rect x="188" y="83" width="50" height="4" rx="2" fill="rgba(255,255,255,0.4)" />
+                <rect x="188" y="93" width="36" height="4" rx="2" fill="rgba(255,255,255,0.2)" />
+                <rect x="180" y="118" width="48" height="30" rx="6" fill="rgba(34,211,238,0.15)"
+                  stroke="rgba(34,211,238,0.3)" stroke-width="1" />
+                <rect x="234" y="118" width="44" height="30" rx="6" fill="rgba(139,92,246,0.15)"
+                  stroke="rgba(139,92,246,0.25)" stroke-width="1" />
+                <!-- Bottom row bento -->
+                <rect x="52" y="165" width="54" height="68" rx="8" fill="rgba(255,255,255,0.05)"
+                  stroke="rgba(255,255,255,0.1)" stroke-width="1" />
+                <circle cx="79" cy="188" r="13" fill="rgba(34,211,238,0.2)" stroke="rgba(34,211,238,0.4)"
+                  stroke-width="1" />
+                <text x="79" y="193" text-anchor="middle" font-size="11">🎨</text>
+                <rect x="60" y="208" width="38" height="4" rx="2" fill="rgba(255,255,255,0.2)" />
+                <rect x="60" y="217" width="28" height="3" rx="2" fill="rgba(255,255,255,0.1)" />
+                <rect x="114" y="165" width="54" height="68" rx="8" fill="rgba(255,255,255,0.05)"
+                  stroke="rgba(255,255,255,0.1)" stroke-width="1" />
+                <circle cx="141" cy="188" r="13" fill="rgba(168,85,247,0.2)" stroke="rgba(168,85,247,0.4)"
+                  stroke-width="1" />
+                <text x="141" y="193" text-anchor="middle" font-size="11">🤖</text>
+                <rect x="122" y="208" width="38" height="4" rx="2" fill="rgba(255,255,255,0.2)" />
+                <rect x="122" y="217" width="28" height="3" rx="2" fill="rgba(255,255,255,0.1)" />
+                <!-- Dark card bottom right -->
+                <rect x="176" y="165" width="108" height="68" rx="8" fill="rgba(0,0,0,0.35)"
+                  stroke="rgba(255,255,255,0.08)" stroke-width="1" />
+                <circle cx="188" cy="177" r="4" fill="#ef4444" />
+                <circle cx="200" cy="177" r="4" fill="#f59e0b" />
+                <circle cx="212" cy="177" r="4" fill="#22c55e" />
+                <rect x="182" y="188" width="96" height="4" rx="2" fill="rgba(255,255,255,0.15)" />
+                <rect x="182" y="198" width="76" height="4" rx="2" fill="rgba(255,255,255,0.1)" />
+                <rect x="182" y="208" width="86" height="4" rx="2" fill="rgba(255,255,255,0.08)" />
+
+                <!-- RESPONSIVE label -->
+                <text x="167" y="268" text-anchor="middle" font-size="10" font-weight="700" fill="#22d3ee">BENTO
+                  GRID</text>
+
+
+
+                <!-- ====== CENTER: Title ====== -->
+                <rect x="320" y="60" width="130" height="26" rx="13" fill="rgba(34,211,238,0.15)"
+                  stroke="rgba(34,211,238,0.35)" stroke-width="1" />
+                <text x="385" y="78" text-anchor="middle" font-size="10" font-weight="700" fill="#22d3ee"
+                  letter-spacing="2">UI/UX DESIGN</text>
+                <text x="320" y="128" font-size="34" font-weight="900" fill="#ffffff" letter-spacing="-1">Tren
+                  Desain</text>
+                <text x="320" y="168" font-size="34" font-weight="900" fill="#ffffff" letter-spacing="-1">UI/UX</text>
+                <rect x="320" y="178" width="196" height="48" rx="10" fill="rgba(34,211,238,0.12)"
+                  stroke="rgba(34,211,238,0.3)" stroke-width="1.5" />
+                <text x="418" y="210" text-anchor="middle" font-size="26" font-weight="900" fill="#22d3ee"
+                  letter-spacing="-0.5">2025–2026</text>
+                <text x="320" y="256" font-size="12" fill="#93c5fd">Eksplorasi tren interface yang</text>
+                <text x="320" y="274" font-size="12" fill="#93c5fd">mendominasi industri digital global.</text>
+                <line x1="320" y1="292" x2="560" y2="292" stroke="rgba(255,255,255,0.1)" stroke-width="1" />
+                <circle cx="330" cy="308" r="4" fill="#22d3ee" />
+                <text x="342" y="313" font-size="11" fill="#93c5fd">Desain</text>
+                <circle cx="400" cy="308" r="4" fill="#60a5fa" />
+                <text x="412" y="313" font-size="11" fill="#93c5fd">8 min read</text>
+                <circle cx="482" cy="308" r="4" fill="#a78bfa" />
+                <text x="494" y="313" font-size="11" fill="#93c5fd">Avenixa Labs</text>
+
+                <!-- ====== RIGHT: Trend cards ====== -->
+                <rect x="630" y="56" width="148" height="54" rx="12" fill="rgba(255,255,255,0.05)"
+                  stroke="rgba(34,211,238,0.2)" stroke-width="1" />
+                <rect x="630" y="56" width="3" height="54" rx="2" fill="url(#acc-uiux)" />
+                <circle cx="655" cy="83" r="14" fill="rgba(34,211,238,0.12)" stroke="rgba(34,211,238,0.25)"
+                  stroke-width="1" />
+                <text x="655" y="88" text-anchor="middle" font-size="13">🪟</text>
+                <text x="675" y="79" font-size="11" font-weight="700" fill="#ffffff">Glassmorphism</text>
+                <text x="675" y="95" font-size="9" fill="#93c5fd">Kaca &amp; kedalaman visual</text>
+                <rect x="630" y="120" width="148" height="54" rx="12" fill="rgba(255,255,255,0.05)"
+                  stroke="rgba(99,102,241,0.2)" stroke-width="1" />
+                <rect x="630" y="120" width="3" height="54" rx="2" fill="#6366f1" />
+                <circle cx="655" cy="147" r="14" fill="rgba(99,102,241,0.12)" stroke="rgba(99,102,241,0.25)"
+                  stroke-width="1" />
+                <text x="655" y="152" text-anchor="middle" font-size="13">🤖</text>
+                <text x="675" y="143" font-size="11" font-weight="700" fill="#ffffff">AI Adaptive UI</text>
+                <text x="675" y="159" font-size="9" fill="#93c5fd">Interface yang berpikir</text>
+                <rect x="630" y="184" width="148" height="54" rx="12" fill="rgba(255,255,255,0.05)"
+                  stroke="rgba(168,85,247,0.2)" stroke-width="1" />
+                <rect x="630" y="184" width="3" height="54" rx="2" fill="#a855f7" />
+                <circle cx="655" cy="211" r="14" fill="rgba(168,85,247,0.12)" stroke="rgba(168,85,247,0.25)"
+                  stroke-width="1" />
+                <text x="655" y="216" text-anchor="middle" font-size="13">🌑</text>
+                <text x="675" y="207" font-size="11" font-weight="700" fill="#ffffff">Dark Mode Premium</text>
+                <text x="675" y="223" font-size="9" fill="#93c5fd">Lebih dari sekadar hitam</text>
+                <rect x="630" y="248" width="148" height="54" rx="12" fill="rgba(255,255,255,0.05)"
+                  stroke="rgba(251,191,36,0.2)" stroke-width="1" />
+                <rect x="630" y="248" width="3" height="54" rx="2" fill="#f59e0b" />
+                <circle cx="655" cy="275" r="14" fill="rgba(251,191,36,0.12)" stroke="rgba(251,191,36,0.25)"
+                  stroke-width="1" />
+                <text x="655" y="280" text-anchor="middle" font-size="13">🖐️</text>
+                <text x="675" y="271" font-size="11" font-weight="700" fill="#ffffff">Micro-interactions</text>
+                <text x="675" y="287" font-size="9" fill="#93c5fd">Animasi yang bermakna</text>
+                <rect x="630" y="312" width="148" height="54" rx="12" fill="rgba(255,255,255,0.05)"
+                  stroke="rgba(34,197,94,0.2)" stroke-width="1" />
+                <rect x="630" y="312" width="3" height="54" rx="2" fill="#22c55e" />
+                <circle cx="655" cy="339" r="14" fill="rgba(34,197,94,0.12)" stroke="rgba(34,197,94,0.25)"
+                  stroke-width="1" />
+                <text x="655" y="344" text-anchor="middle" font-size="13">🎨</text>
+                <text x="675" y="335" font-size="11" font-weight="700" fill="#ffffff">Bento Grid Layout</text>
+                <text x="675" y="351" font-size="9" fill="#93c5fd">Tatanan yang ekspresif</text>
+
+                <!-- Stats bar -->
+                <rect x="50" y="338" width="548" height="42" rx="10" fill="rgba(255,255,255,0.04)"
+                  stroke="rgba(255,255,255,0.07)" stroke-width="1" />
+                <text x="120" y="363" text-anchor="middle" font-size="22" font-weight="900" fill="#a78bfa">6</text>
+                <text x="120" y="375" text-anchor="middle" font-size="9" fill="#93c5fd">Tren utama 2025</text>
+                <line x1="196" y1="344" x2="196" y2="374" stroke="rgba(255,255,255,0.08)" stroke-width="1" />
+                <text x="285" y="363" text-anchor="middle" font-size="22" font-weight="900" fill="#22d3ee">2025</text>
+                <text x="285" y="375" text-anchor="middle" font-size="9" fill="#93c5fd">Tahun referensi</text>
+                <line x1="384" y1="344" x2="384" y2="374" stroke="rgba(255,255,255,0.08)" stroke-width="1" />
+                <text x="466" y="363" text-anchor="middle" font-size="22" font-weight="900" fill="#60a5fa">AI</text>
+                <text x="466" y="375" text-anchor="middle" font-size="9" fill="#93c5fd">Powered interface</text>
+                <line x1="544" y1="344" x2="544" y2="374" stroke="rgba(255,255,255,0.08)" stroke-width="1" />
+                <rect x="552" y="348" width="38" height="28" rx="6" fill="rgba(34,211,238,0.1)"
+                  stroke="rgba(34,211,238,0.2)" stroke-width="1" />
+                <text x="571" y="360" text-anchor="middle" font-size="8" font-weight="700" fill="#22d3ee">AVENIXA</text>
+                <text x="571" y="371" text-anchor="middle" font-size="8" fill="#93c5fd">LABS</text>
+              </svg>

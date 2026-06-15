@@ -1,0 +1,135 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg" font-family="Poppins, Inter, sans-serif"
+                style="width:100%;display:block;">
+                <defs>
+                  <linearGradient id="bg-sec" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" style="stop-color:#0f2460" />
+                    <stop offset="100%" style="stop-color:#1d4ed8" />
+                  </linearGradient>
+                  <radialGradient id="glow-sec" cx="50%" cy="50%" r="50%">
+                    <stop offset="0%" style="stop-color:#22d3ee;stop-opacity:0.15" />
+                    <stop offset="100%" style="stop-color:#22d3ee;stop-opacity:0" />
+                  </radialGradient>
+                  <linearGradient id="shield-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+                    <stop offset="0%" style="stop-color:#22d3ee" />
+                    <stop offset="100%" style="stop-color:#3b82f6" />
+                  </linearGradient>
+                </defs>
+                <rect width="800" height="400" fill="url(#bg-sec)" />
+                <g stroke="rgba(255,255,255,0.04)" stroke-width="1">
+                  <line x1="0" y1="100" x2="800" y2="100" />
+                  <line x1="0" y1="200" x2="800" y2="200" />
+                  <line x1="0" y1="300" x2="800" y2="300" />
+                  <line x1="200" y1="0" x2="200" y2="400" />
+                  <line x1="400" y1="0" x2="400" y2="400" />
+                  <line x1="600" y1="0" x2="600" y2="400" />
+                </g>
+                <ellipse cx="200" cy="195" rx="220" ry="180" fill="url(#glow-sec)" />
+                <ellipse cx="640" cy="120" rx="160" ry="130" fill="url(#glow-sec)" />
+                <circle cx="200" cy="195" r="95" fill="rgba(15,36,96,0.6)" stroke="rgba(34,211,238,0.2)"
+                  stroke-width="1.5" />
+                <circle cx="200" cy="195" r="68" fill="rgba(15,36,96,0.5)" stroke="rgba(59,130,246,0.3)"
+                  stroke-width="1" />
+                <path d="M200 150 L234 164 L234 204 Q234 226 200 238 Q166 226 166 204 L166 164 Z"
+                  fill="rgba(34,211,238,0.15)" stroke="url(#shield-grad)" stroke-width="2" />
+                <rect x="189" y="197" width="22" height="16" rx="3" fill="#22d3ee" opacity="0.9" />
+                <path d="M193 197 L193 192 Q193 185 200 185 Q207 185 207 192 L207 197" fill="none" stroke="#22d3ee"
+                  stroke-width="2.5" stroke-linecap="round" />
+                <circle cx="200" cy="205" r="2.5" fill="#0f2460" />
+                <circle cx="200" cy="113" r="8" fill="rgba(239,68,68,0.85)" stroke="rgba(239,68,68,0.4)"
+                  stroke-width="1" />
+                <text x="200" y="117" text-anchor="middle" font-size="8" fill="#fff">!</text>
+                <line x1="200" y1="121" x2="200" y2="150" stroke="rgba(239,68,68,0.35)" stroke-width="1"
+                  stroke-dasharray="3,2" />
+                <circle cx="286" cy="195" r="8" fill="rgba(251,191,36,0.85)" stroke="rgba(251,191,36,0.4)"
+                  stroke-width="1" />
+                <text x="286" y="199" text-anchor="middle" font-size="8" fill="#fff">⚠</text>
+                <line x1="278" y1="195" x2="234" y2="195" stroke="rgba(251,191,36,0.35)" stroke-width="1"
+                  stroke-dasharray="3,2" />
+                <circle cx="148" cy="148" r="7" fill="rgba(239,68,68,0.65)" stroke="rgba(239,68,68,0.3)"
+                  stroke-width="1" />
+                <text x="148" y="152" text-anchor="middle" font-size="7" fill="#fff">✕</text>
+                <line x1="154" y1="154" x2="165" y2="163" stroke="rgba(239,68,68,0.3)" stroke-width="1"
+                  stroke-dasharray="3,2" />
+                <circle cx="252" cy="148" r="7" fill="rgba(251,191,36,0.65)" stroke="rgba(251,191,36,0.3)"
+                  stroke-width="1" />
+                <line x1="246" y1="154" x2="235" y2="163" stroke="rgba(251,191,36,0.3)" stroke-width="1"
+                  stroke-dasharray="3,2" />
+                <rect x="152" y="260" width="96" height="20" rx="5" fill="rgba(34,211,238,0.15)"
+                  stroke="rgba(34,211,238,0.3)" stroke-width="1" />
+                <text x="200" y="274" text-anchor="middle" font-size="9" font-weight="700" fill="#22d3ee"
+                  letter-spacing="1.5">PROTECTED</text>
+                <text x="385" y="78" text-anchor="middle" font-size="10" font-weight="700" fill="#f87171"
+                  letter-spacing="1.5">KEAMANAN SIBER</text>
+                <text x="320" y="126" font-size="34" font-weight="900" fill="#ffffff"
+                  letter-spacing="-1">Lindungi</text>
+                <text x="320" y="166" font-size="34" font-weight="900" fill="#ffffff" letter-spacing="-1">Bisnis</text>
+                <rect x="320" y="176" width="180" height="48" rx="10" fill="rgba(239,68,68,0.12)"
+                  stroke="rgba(239,68,68,0.3)" stroke-width="1.5" />
+                <text x="410" y="208" text-anchor="middle" font-size="26" font-weight="900" fill="#f87171"
+                  letter-spacing="-0.5">UMKM Anda</text>
+                <text x="320" y="256" font-size="12" fill="#93c5fd">Panduan praktis mengamankan data</text>
+                <text x="320" y="274" font-size="12" fill="#93c5fd">bisnis dari ancaman siber modern.</text>
+                <line x1="320" y1="292" x2="560" y2="292" stroke="rgba(255,255,255,0.1)" stroke-width="1" />
+                <circle cx="330" cy="308" r="4" fill="#ef4444" />
+                <text x="342" y="313" font-size="11" fill="#93c5fd">Keamanan</text>
+                <circle cx="415" cy="308" r="4" fill="#f59e0b" />
+                <text x="427" y="313" font-size="11" fill="#93c5fd">7 min read</text>
+                <circle cx="492" cy="308" r="4" fill="#a78bfa" />
+                <text x="504" y="313" font-size="11" fill="#93c5fd">Avenixa Labs</text>
+                <rect x="618" y="58" width="160" height="54" rx="12" fill="rgba(255,255,255,0.05)"
+                  stroke="rgba(239,68,68,0.2)" stroke-width="1" />
+                <rect x="618" y="58" width="3" height="54" rx="2" fill="#ef4444" />
+                <circle cx="644" cy="85" r="14" fill="rgba(239,68,68,0.12)" stroke="rgba(239,68,68,0.25)"
+                  stroke-width="1" />
+                <text x="644" y="90" text-anchor="middle" font-size="13">🦠</text>
+                <text x="666" y="81" font-size="11" font-weight="700" fill="#ffffff">Malware</text>
+                <text x="666" y="97" font-size="9" fill="#93c5fd">Deteksi &amp; blokir</text>
+                <rect x="618" y="122" width="160" height="54" rx="12" fill="rgba(255,255,255,0.05)"
+                  stroke="rgba(251,191,36,0.2)" stroke-width="1" />
+                <rect x="618" y="122" width="3" height="54" rx="2" fill="#f59e0b" />
+                <circle cx="644" cy="149" r="14" fill="rgba(251,191,36,0.12)" stroke="rgba(251,191,36,0.25)"
+                  stroke-width="1" />
+                <text x="644" y="154" text-anchor="middle" font-size="13">🎣</text>
+                <text x="666" y="145" font-size="11" font-weight="700" fill="#ffffff">Phishing</text>
+                <text x="666" y="161" font-size="9" fill="#93c5fd">Email palsu &amp; scam</text>
+                <rect x="618" y="186" width="160" height="54" rx="12" fill="rgba(255,255,255,0.05)"
+                  stroke="rgba(168,85,247,0.2)" stroke-width="1" />
+                <rect x="618" y="186" width="3" height="54" rx="2" fill="#a855f7" />
+                <circle cx="644" cy="213" r="14" fill="rgba(168,85,247,0.12)" stroke="rgba(168,85,247,0.25)"
+                  stroke-width="1" />
+                <text x="644" y="218" text-anchor="middle" font-size="13">🔒</text>
+                <text x="666" y="209" font-size="11" font-weight="700" fill="#ffffff">Ransomware</text>
+                <text x="666" y="225" font-size="9" fill="#93c5fd">Enkripsi data paksa</text>
+                <rect x="618" y="250" width="160" height="54" rx="12" fill="rgba(255,255,255,0.05)"
+                  stroke="rgba(34,197,94,0.2)" stroke-width="1" />
+                <rect x="618" y="250" width="3" height="54" rx="2" fill="#22c55e" />
+                <circle cx="644" cy="277" r="14" fill="rgba(34,197,94,0.12)" stroke="rgba(34,197,94,0.25)"
+                  stroke-width="1" />
+                <text x="644" y="282" text-anchor="middle" font-size="13">🛡️</text>
+                <text x="666" y="273" font-size="11" font-weight="700" fill="#ffffff">Firewall</text>
+                <text x="666" y="289" font-size="9" fill="#93c5fd">Lapis pertahanan utama</text>
+                <rect x="618" y="314" width="160" height="54" rx="12" fill="rgba(255,255,255,0.05)"
+                  stroke="rgba(34,211,238,0.2)" stroke-width="1" />
+                <rect x="618" y="314" width="3" height="54" rx="2" fill="#22d3ee" />
+                <circle cx="644" cy="341" r="14" fill="rgba(34,211,238,0.12)" stroke="rgba(34,211,238,0.25)"
+                  stroke-width="1" />
+                <text x="644" y="346" text-anchor="middle" font-size="13">🔐</text>
+                <text x="666" y="337" font-size="11" font-weight="700" fill="#ffffff">Enkripsi Data</text>
+                <text x="666" y="353" font-size="9" fill="#93c5fd">SSL &amp; end-to-end</text>
+                <rect x="50" y="338" width="548" height="42" rx="10" fill="rgba(255,255,255,0.04)"
+                  stroke="rgba(255,255,255,0.07)" stroke-width="1" />
+                <text x="130" y="363" text-anchor="middle" font-size="22" font-weight="900" fill="#ef4444">43%</text>
+                <text x="130" y="375" text-anchor="middle" font-size="9" fill="#93c5fd">UMKM diserang tiap thn</text>
+                <line x1="200" y1="344" x2="200" y2="374" stroke="rgba(255,255,255,0.08)" stroke-width="1" />
+                <text x="295" y="363" text-anchor="middle" font-size="22" font-weight="900" fill="#f59e0b">5
+                  Langkah</text>
+                <text x="295" y="375" text-anchor="middle" font-size="9" fill="#93c5fd">Proteksi praktis</text>
+                <line x1="390" y1="344" x2="390" y2="374" stroke="rgba(255,255,255,0.08)" stroke-width="1" />
+                <text x="472" y="363" text-anchor="middle" font-size="22" font-weight="900" fill="#22d3ee">24/7</text>
+                <text x="472" y="375" text-anchor="middle" font-size="9" fill="#93c5fd">Monitoring aktif</text>
+                <line x1="544" y1="344" x2="544" y2="374" stroke="rgba(255,255,255,0.08)" stroke-width="1" />
+                <rect x="552" y="348" width="38" height="28" rx="6" fill="rgba(34,211,238,0.1)"
+                  stroke="rgba(34,211,238,0.2)" stroke-width="1" />
+                <text x="571" y="360" text-anchor="middle" font-size="8" font-weight="700" fill="#22d3ee">AVENIXA</text>
+                <text x="571" y="371" text-anchor="middle" font-size="8" fill="#93c5fd">LABS</text>
+              </svg>
