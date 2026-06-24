@@ -1566,3 +1566,12 @@ body {
   transform: translateY(-2px);
   box-shadow: 0 8px 24px rgba(30, 58, 138, 0.45);
 }
+
+::-webkit-scrollbar {
+   width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+   background: var(--card-info);
+   border-radius: 20px;
+}
